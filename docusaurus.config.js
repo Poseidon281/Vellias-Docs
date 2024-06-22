@@ -15,7 +15,7 @@ const config = {
   url: 'https://docs.velliashosting.online',
   baseUrl: '/',
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   presets: [
@@ -25,16 +25,12 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/Poseidon281/Vellias-Docs/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/Poseidon281/Vellias-Docs/tree/main/blog',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -49,6 +45,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false,
+      }
+    },
       navbar: {
         title: 'Vellias Documentation',
         logo: {
