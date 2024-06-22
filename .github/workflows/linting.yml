@@ -20,11 +20,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run write-good action
-        id: write-good
-        uses: tomwhross/write-good-action@v1.6
-        # with:
-        #   directory: "manuscript" # Optional, uncomment to specify a directory to scan
+      - name: Linting Markdown
+        uses: ClydeDz/markdown-list-linter@v1.0.0
         
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
