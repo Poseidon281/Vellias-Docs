@@ -71,7 +71,6 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://discord.velliashosting.online',
-            label: 'Discord',
             position: 'right',
             className: "discord-link",
           },
