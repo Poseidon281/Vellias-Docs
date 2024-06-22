@@ -2,26 +2,32 @@ name: Lint
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   markdown:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
-    name: Markdown Lint
+    name: A job to lint Markdown files
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: Linting Markdown Files
-      uses: articulate/actions-markdownlint@v1
-
-    - name: Commit
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: Markdown Lint
+      - name: Run write-good action
+        id: write-good
+        uses: tomwhross/write-good-action@v1.6
+        # with:
+        #   directory: "manuscript" # Optional, uncomment to specify a directory to scan
+        
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Lint Fixes
+          commit_user_name: Lint
