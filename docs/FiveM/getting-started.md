@@ -5,7 +5,7 @@ sidebar_label: Getting Started
 
 # Getting Started
 
-## Step 1: Initial Configuration
+## Initial Configuration
 
 Welcome to Vellias Hosting! Congratulations on purchasing your FiveM server. This guide will help you get started with the initial configuration of your server.
 
@@ -18,6 +18,11 @@ Welcome to Vellias Hosting! Congratulations on purchasing your FiveM server. Thi
 ### 2. Navigating to Your Server
 
 1. After logging in, you will see a list of servers you have access to. Select your newly purchased FiveM server from the list.
+
+### 3. Changing startup
+
+1. Navigate to **Startup** 
+2. Change the variables to your preferences 
 
 ## Support
 

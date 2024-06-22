@@ -42,7 +42,7 @@ const config = {
       image: 'img/logo.png',
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       docs: {
@@ -73,6 +73,11 @@ const config = {
             href: 'https://discord.velliashosting.online',
             position: 'right',
             className: "discord-link",
+          },
+          {
+            href: 'https://github.com/Poseidon281/Vellias-Docs',
+            position: 'right',
+            className: "github-link",
           },
         ],
       },
