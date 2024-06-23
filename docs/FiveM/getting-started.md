@@ -21,8 +21,33 @@ Welcome to Vellias Hosting! Congratulations on purchasing your FiveM server. Thi
 
 ### 3. Changing startup
 
-1. Navigate to **Startup** 
-2. Change the variables to your preferences 
+1. Navigate to **Startup**
+2. Change the variables to your preferences. Make sure to change the txAdmin port to another port then your main port. In the **Network** tab you can view your ports
+
+:::info
+
+Don't know how to create a FXSERVER LICENSE KEY then you can follow [this guide](https://support.cfx.re/hc/en-us/articles/8014850328348-How-to-create-a-server-license-key#:~:text=Just%20head%20over%20to%20https,PC%2Fserver%20hosting%20the%20server.)
+
+:::
+
+### 4. Creating a database
+
+1. Navigate to **Databases**
+2. Press the New Database button and fill in a name for your database
+3. Add this string to your server.cfg
+
+:::danger
+
+Make sure you replace the the DATABASE values with the database data that you just created.
+DATABASE_IP is the endpoint without the port.
+
+:::
+
+```txt
+set mysql_connection_string "server=DATABASE_IP;uid=DATABASE_USERNAME;password=DATABASE_PASSWORD;database=DATABASE_NAME"
+```
+
+4. If you are using oxmysql your database should now connect to your server
 
 ## Support
 
