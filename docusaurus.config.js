@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vellias Documentation',
-  tagline: 'Need help with your server? This is the place to be',
+  tagline: 'Need help with your Vellias Hosting server? This is the place to be',
   favicon: 'img/favicon.ico',
 
   url: 'https://docs.velliashosting.online',

@@ -26,7 +26,7 @@ Welcome to Vellias Hosting! Congratulations on purchasing your FiveM server. Thi
 
 :::info
 
-Don't know how to create a FXSERVER LICENSE KEY then you can follow [this guide](https://support.cfx.re/hc/en-us/articles/8014850328348-How-to-create-a-server-license-key#:~:text=Just%20head%20over%20to%20https,PC%2Fserver%20hosting%20the%20server.)
+Don't know how to create a FXSERVER LICENSE KEY? Then you can follow [this guide](https://support.cfx.re/hc/en-us/articles/8014850328348-How-to-create-a-server-license-key)
 
 :::
 
