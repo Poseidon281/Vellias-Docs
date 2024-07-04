@@ -6,6 +6,10 @@ sidebar_position: 1
 Keep in mind that this documentation is still a work in progress and not finished.
 Some pages may be incomplete or wrong.
 
-|Games||
-|----|----|
-| [FiveM](/docs/category/fivem) ||
+|Games|
+|----|
+| [FiveM](/docs/category/fivem) |
+
+|Others|
+|----|
+| [Dedicated Server](/docs/category/dedicated-server) |
