@@ -90,7 +90,7 @@ const config = {
           },
           */
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
                 label: 'Shop',
